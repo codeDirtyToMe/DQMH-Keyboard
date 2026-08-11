@@ -1,5 +1,7 @@
 # DQMH-Keyboard
 60% keyboard.
-a-z, A-Z, and all these symbols !@#$%^&*()_+-='";:/?.>,<\|[]{} 
+a-z, A-Z, 0-9, and all these symbols !@#$%^&*()_+-='";:/?.>,<\|[]{} 
 
-No numbers. If you need a number pad, I have a separate DQMH module for that.
+Characters can be sent as they are typed or as a single string depending on output type boolean value (Broadcast per letter or Broadcast on send).
+
+There is a request and wait for reply event to get the module's VI refnum. This is very useful for inserting into subpanels.
